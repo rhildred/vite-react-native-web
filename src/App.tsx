@@ -12,7 +12,7 @@ export default function App() {
   const [number, setNumber] = useState(0);
 
   function handlePress() {
-    setNumber(parseInt(Math.random() * 10000, 10) % 100);
+    setNumber(Math.round(Math.random() * 100));
   }
 
   return (
@@ -27,7 +27,7 @@ export default function App() {
           styles.btn,
         ]}
         onPress={handlePress}>
-        <Text style={styles.btnText}>Generate a number</Text>
+        <Text style={styles.btnText}>Generate a random number</Text>
       </Pressable>
     </View>
   );

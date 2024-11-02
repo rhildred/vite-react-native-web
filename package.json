@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite-node index.ts",
+    "dev": "vite-node --watch index.ts",
     "start": "vite",
     "build": "vite build",
     "static": "vite build --watch",
