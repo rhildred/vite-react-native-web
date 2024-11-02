@@ -1,7 +1,12 @@
 # React-native Web
 
-[![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https:///pr.new/rhildred/vite-react-native-web)
+This is a starter for react-native web with vite. 
 
-or
+TLDR;
 
-[Edit here](https://diy-pwa.dev/~/gh/rhildred/vite-react-native-web)
+```bash
+npm install
+npm run dev
+```
+
+Vite makes for a dev environment that can be run "beaucoup vite!"
