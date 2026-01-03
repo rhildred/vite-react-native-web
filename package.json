@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite-node --watch index.ts",
-    "start": "vite",
-    "build": "vite build",
-    "static": "vite build --watch",
+    "start": "vite --base='./'",
+    "build": "vite build --base='./'",
+    "static": "vite build --watch --base='./'",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite build && vite preview"
+    "preview": "vite build --base='./' && vite preview --base='./'"
   },
   "dependencies": {
     "express": "^4.21.1",
